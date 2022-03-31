@@ -1,0 +1,14 @@
+action.Add((conn,tran) => 
+{
+  string sql="";
+  conn.Execute(sql,param);
+});
+
+action.Add((conn,tran) => 
+{
+  string sql="";
+  conn.Execute(sql,param);
+});
+
+
+DBhelp.ExecuteTransactionQuery(action.ToArray());
