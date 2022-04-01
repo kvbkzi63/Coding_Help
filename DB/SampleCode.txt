@@ -1,3 +1,4 @@
+List<Action> action= new List<Action>();
 action.Add((conn,tran) => 
 {
   string sql="";
